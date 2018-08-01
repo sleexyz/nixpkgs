@@ -9,7 +9,7 @@ in
 
 stdenv.mkDerivation rec {
   name = "supercollider-${version}";
-  version = "3.9.1";
+  version = "3.9.3";
 
 
   src = fetchurl {
